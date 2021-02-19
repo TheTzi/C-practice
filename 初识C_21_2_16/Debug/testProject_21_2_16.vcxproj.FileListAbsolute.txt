@@ -1,0 +1,2 @@
+C:\C\testProject_21_2_16\Debug\testProject_21_2_16.exe
+C:\C\testProject_21_2_16\Debug\testProject_21_2_16.pdb
