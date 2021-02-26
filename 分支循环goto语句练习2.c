@@ -155,7 +155,8 @@ int main()
 	for (i = 101; i <= 200; i += 2)//偶数不可能是素数
 	{
 		int j = 0;
-		for (j = 2; j <= sqrt(i); j++)//或j<=i/2
+		for (j = 2; j <= sqrt(i); j++)//i=a*b a < sqrt(i) or b < sqrt(i)
+			//或j<=i/2
 		{
 			if (i % j == 0)
 			{
