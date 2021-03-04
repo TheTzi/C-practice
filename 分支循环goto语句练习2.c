@@ -29,19 +29,19 @@ int main()
 
 	printf("input:>");
 	scanf("%d %d %d", &a, &b, &c);
-	if (a < b)
+	if (a > b)
 	{
 		int tmp = a;
 		a = b;
 		b = tmp;
 	}
-	if (a < c)
+	if (a > c)
 	{
 		int tmp = a;
 		a = c;
 		c = tmp;
 	}
-	if (b < c)
+	if (b > c)
 	{
 		int tmp = b;
 		b = c;
